@@ -1,0 +1,76 @@
+###############################################
+# Global ignores for OS and editors
+###############################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VSCode
+.vscode/
+.history/
+
+# Node / Python common
+*.log
+*.env
+.env.*
+__pycache__/
+
+
+###############################################
+# Python Project (book-reccommender)
+###############################################
+book-reccommender/__pycache__/
+book-reccommender/.pytest_cache/
+book-reccommender/.mypy_cache/
+book-reccommender/.pylint.d/
+book-reccommender/.coverage
+book-reccommender/coverage.xml
+book-reccommender/.ipynb_checkpoints/
+book-reccommender/*.egg-info/
+book-reccommender/build/
+book-reccommender/dist/
+
+# Virtual environment
+book-reccommender/venv/
+book-reccommender/.venv/
+book-reccommender/env/
+book-reccommender/.env/
+
+
+###############################################
+# Expo / React Native Project (Bookworm)
+###############################################
+# Node modules
+Bookworm/node_modules/
+
+# Expo / Metro
+Bookworm/.expo/
+Bookworm/.expo-shared/
+Bookworm/.expo-cache/
+Bookworm/.expo/web-build/
+
+# Build artifacts
+Bookworm/android/
+Bookworm/ios/
+Bookworm/web-build/
+Bookworm/dist/
+Bookworm/build/
+
+# Logs
+Bookworm/npm-debug.log*
+Bookworm/yarn-debug.log*
+Bookworm/yarn-error.log*
+
+# TypeScript
+Bookworm/*.tsbuildinfo
+
+# Metro bundler cache
+Bookworm/metro-cache/
+Bookworm/.cache/
+
+# Environment files
+Bookworm/.env
+Bookworm/.env.*
