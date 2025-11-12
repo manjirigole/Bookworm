@@ -78,3 +78,4 @@ Bookworm/.cache/
 # Environment files
 Bookworm/.env
 Bookworm/.env.*
+book-reccomender/firebase/firebase-admin-key.json
