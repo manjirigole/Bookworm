@@ -39,6 +39,10 @@ book-reccommender/.venv/
 book-reccommender/env/
 book-reccommender/.env/
 
+book-reccomender/data/books_raw.csv
+book-reccomender/data/clean_books.csv
+book-reccomender/models/df_clean.pkl
+
 
 ###############################################
 # Expo / React Native Project (Bookworm)
